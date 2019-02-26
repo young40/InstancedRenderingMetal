@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		D578CB662225907100187D9D /* AppDelegateiOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578CB652225907100187D9D /* AppDelegateiOS.swift */; };
 		D578CB682225907100187D9D /* GameViewControlleriOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578CB672225907100187D9D /* GameViewControlleriOS.swift */; };
-		D578CB6B2225907100187D9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D578CB692225907100187D9D /* Main.storyboard */; };
+		D578CB6B2225907100187D9D /* MainiOS.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D578CB692225907100187D9D /* MainiOS.storyboard */; };
 		D578CB6E2225907100187D9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D578CB6C2225907100187D9D /* LaunchScreen.storyboard */; };
 		D578CB772225907100187D9D /* AppDelegateMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578CB762225907100187D9D /* AppDelegateMac.swift */; };
 		D578CB792225907100187D9D /* GameViewControllerMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578CB782225907100187D9D /* GameViewControllerMac.swift */; };
-		D578CB7C2225907100187D9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D578CB7A2225907100187D9D /* Main.storyboard */; };
+		D578CB7C2225907100187D9D /* MainMac.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D578CB7A2225907100187D9D /* MainMac.storyboard */; };
 		D578CB7E2225907100187D9D /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = D578CB5A2225907000187D9D /* Shaders.metal */; };
 		D578CB7F2225907100187D9D /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = D578CB5A2225907000187D9D /* Shaders.metal */; };
 		D578CB802225907100187D9D /* Renderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578CB5B2225907000187D9D /* Renderer.swift */; };
@@ -32,13 +32,13 @@
 		D578CB622225907100187D9D /* InstancedRendering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstancedRendering.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D578CB652225907100187D9D /* AppDelegateiOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateiOS.swift; sourceTree = "<group>"; };
 		D578CB672225907100187D9D /* GameViewControlleriOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewControlleriOS.swift; sourceTree = "<group>"; };
-		D578CB6A2225907100187D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D578CB6A2225907100187D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainiOS.storyboard; sourceTree = "<group>"; };
 		D578CB6D2225907100187D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D578CB6F2225907100187D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D578CB742225907100187D9D /* InstancedRendering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstancedRendering.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D578CB762225907100187D9D /* AppDelegateMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateMac.swift; sourceTree = "<group>"; };
 		D578CB782225907100187D9D /* GameViewControllerMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewControllerMac.swift; sourceTree = "<group>"; };
-		D578CB7B2225907100187D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D578CB7B2225907100187D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainMac.storyboard; sourceTree = "<group>"; };
 		D578CB7D2225907100187D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,7 +95,7 @@
 			children = (
 				D578CB652225907100187D9D /* AppDelegateiOS.swift */,
 				D578CB672225907100187D9D /* GameViewControlleriOS.swift */,
-				D578CB692225907100187D9D /* Main.storyboard */,
+				D578CB692225907100187D9D /* MainiOS.storyboard */,
 				D578CB6C2225907100187D9D /* LaunchScreen.storyboard */,
 				D578CB6F2225907100187D9D /* Info.plist */,
 			);
@@ -107,7 +107,7 @@
 			children = (
 				D578CB762225907100187D9D /* AppDelegateMac.swift */,
 				D578CB782225907100187D9D /* GameViewControllerMac.swift */,
-				D578CB7A2225907100187D9D /* Main.storyboard */,
+				D578CB7A2225907100187D9D /* MainMac.storyboard */,
 				D578CB7D2225907100187D9D /* Info.plist */,
 			);
 			path = "InstancedRendering macOS";
@@ -193,7 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D578CB822225907100187D9D /* ShaderTypes.h in Resources */,
-				D578CB6B2225907100187D9D /* Main.storyboard in Resources */,
+				D578CB6B2225907100187D9D /* MainiOS.storyboard in Resources */,
 				D578CB842225907100187D9D /* Assets.xcassets in Resources */,
 				D578CB6E2225907100187D9D /* LaunchScreen.storyboard in Resources */,
 			);
@@ -203,7 +203,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D578CB7C2225907100187D9D /* Main.storyboard in Resources */,
+				D578CB7C2225907100187D9D /* MainMac.storyboard in Resources */,
 				D578CB852225907100187D9D /* Assets.xcassets in Resources */,
 				D578CB832225907100187D9D /* ShaderTypes.h in Resources */,
 			);
@@ -237,12 +237,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D578CB692225907100187D9D /* Main.storyboard */ = {
+		D578CB692225907100187D9D /* MainiOS.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D578CB6A2225907100187D9D /* Base */,
 			);
-			name = Main.storyboard;
+			name = MainiOS.storyboard;
 			sourceTree = "<group>";
 		};
 		D578CB6C2225907100187D9D /* LaunchScreen.storyboard */ = {
@@ -253,12 +253,12 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		D578CB7A2225907100187D9D /* Main.storyboard */ = {
+		D578CB7A2225907100187D9D /* MainMac.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D578CB7B2225907100187D9D /* Base */,
 			);
-			name = Main.storyboard;
+			name = MainMac.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
