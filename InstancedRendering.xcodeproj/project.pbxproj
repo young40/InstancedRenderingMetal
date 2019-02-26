@@ -11,8 +11,8 @@
 		D578CB682225907100187D9D /* GameViewControlleriOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578CB672225907100187D9D /* GameViewControlleriOS.swift */; };
 		D578CB6B2225907100187D9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D578CB692225907100187D9D /* Main.storyboard */; };
 		D578CB6E2225907100187D9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D578CB6C2225907100187D9D /* LaunchScreen.storyboard */; };
-		D578CB772225907100187D9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578CB762225907100187D9D /* AppDelegate.swift */; };
-		D578CB792225907100187D9D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578CB782225907100187D9D /* GameViewController.swift */; };
+		D578CB772225907100187D9D /* AppDelegateMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578CB762225907100187D9D /* AppDelegateMac.swift */; };
+		D578CB792225907100187D9D /* GameViewControllerMac.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578CB782225907100187D9D /* GameViewControllerMac.swift */; };
 		D578CB7C2225907100187D9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D578CB7A2225907100187D9D /* Main.storyboard */; };
 		D578CB7E2225907100187D9D /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = D578CB5A2225907000187D9D /* Shaders.metal */; };
 		D578CB7F2225907100187D9D /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = D578CB5A2225907000187D9D /* Shaders.metal */; };
@@ -36,8 +36,8 @@
 		D578CB6D2225907100187D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D578CB6F2225907100187D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D578CB742225907100187D9D /* InstancedRendering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstancedRendering.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D578CB762225907100187D9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D578CB782225907100187D9D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		D578CB762225907100187D9D /* AppDelegateMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateMac.swift; sourceTree = "<group>"; };
+		D578CB782225907100187D9D /* GameViewControllerMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewControllerMac.swift; sourceTree = "<group>"; };
 		D578CB7B2225907100187D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D578CB7D2225907100187D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,8 +105,8 @@
 		D578CB752225907100187D9D /* InstancedRendering macOS */ = {
 			isa = PBXGroup;
 			children = (
-				D578CB762225907100187D9D /* AppDelegate.swift */,
-				D578CB782225907100187D9D /* GameViewController.swift */,
+				D578CB762225907100187D9D /* AppDelegateMac.swift */,
+				D578CB782225907100187D9D /* GameViewControllerMac.swift */,
 				D578CB7A2225907100187D9D /* Main.storyboard */,
 				D578CB7D2225907100187D9D /* Info.plist */,
 			);
@@ -229,8 +229,8 @@
 			files = (
 				D578CB812225907100187D9D /* Renderer.swift in Sources */,
 				D578CB7F2225907100187D9D /* Shaders.metal in Sources */,
-				D578CB792225907100187D9D /* GameViewController.swift in Sources */,
-				D578CB772225907100187D9D /* AppDelegate.swift in Sources */,
+				D578CB792225907100187D9D /* GameViewControllerMac.swift in Sources */,
+				D578CB772225907100187D9D /* AppDelegateMac.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
