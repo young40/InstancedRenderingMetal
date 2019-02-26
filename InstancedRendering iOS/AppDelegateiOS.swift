@@ -1,5 +1,5 @@
 //
-//  AppDelegate.swift
+//  AppDelegateiOS.swift
 //  InstancedRendering iOS
 //
 //  Created by 杨世玲 on 2019/2/26.
@@ -9,7 +9,7 @@
 import UIKit
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegateiOS: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 

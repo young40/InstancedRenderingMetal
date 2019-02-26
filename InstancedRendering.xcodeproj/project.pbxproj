@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D578CB662225907100187D9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578CB652225907100187D9D /* AppDelegate.swift */; };
-		D578CB682225907100187D9D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578CB672225907100187D9D /* GameViewController.swift */; };
+		D578CB662225907100187D9D /* AppDelegateiOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578CB652225907100187D9D /* AppDelegateiOS.swift */; };
+		D578CB682225907100187D9D /* GameViewControlleriOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578CB672225907100187D9D /* GameViewControlleriOS.swift */; };
 		D578CB6B2225907100187D9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D578CB692225907100187D9D /* Main.storyboard */; };
 		D578CB6E2225907100187D9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D578CB6C2225907100187D9D /* LaunchScreen.storyboard */; };
 		D578CB772225907100187D9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578CB762225907100187D9D /* AppDelegate.swift */; };
@@ -30,8 +30,8 @@
 		D578CB5C2225907000187D9D /* ShaderTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShaderTypes.h; sourceTree = "<group>"; };
 		D578CB5D2225907100187D9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D578CB622225907100187D9D /* InstancedRendering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstancedRendering.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D578CB652225907100187D9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D578CB672225907100187D9D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		D578CB652225907100187D9D /* AppDelegateiOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateiOS.swift; sourceTree = "<group>"; };
+		D578CB672225907100187D9D /* GameViewControlleriOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewControlleriOS.swift; sourceTree = "<group>"; };
 		D578CB6A2225907100187D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D578CB6D2225907100187D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D578CB6F2225907100187D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -93,8 +93,8 @@
 		D578CB642225907100187D9D /* InstancedRendering iOS */ = {
 			isa = PBXGroup;
 			children = (
-				D578CB652225907100187D9D /* AppDelegate.swift */,
-				D578CB672225907100187D9D /* GameViewController.swift */,
+				D578CB652225907100187D9D /* AppDelegateiOS.swift */,
+				D578CB672225907100187D9D /* GameViewControlleriOS.swift */,
 				D578CB692225907100187D9D /* Main.storyboard */,
 				D578CB6C2225907100187D9D /* LaunchScreen.storyboard */,
 				D578CB6F2225907100187D9D /* Info.plist */,
@@ -218,8 +218,8 @@
 			files = (
 				D578CB802225907100187D9D /* Renderer.swift in Sources */,
 				D578CB7E2225907100187D9D /* Shaders.metal in Sources */,
-				D578CB682225907100187D9D /* GameViewController.swift in Sources */,
-				D578CB662225907100187D9D /* AppDelegate.swift in Sources */,
+				D578CB682225907100187D9D /* GameViewControlleriOS.swift in Sources */,
+				D578CB662225907100187D9D /* AppDelegateiOS.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

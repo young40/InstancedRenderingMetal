@@ -1,5 +1,5 @@
 //
-//  GameViewController.swift
+//  GameViewControlleriOS.swift
 //  InstancedRendering iOS
 //
 //  Created by 杨世玲 on 2019/2/26.
@@ -10,7 +10,7 @@ import UIKit
 import MetalKit
 
 // Our iOS specific view controller
-class GameViewController: UIViewController {
+class GameViewControlleriOS: UIViewController {
 
     var renderer: Renderer!
     var mtkView: MTKView!
