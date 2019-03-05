@@ -10,7 +10,7 @@ import UIKit
 import MetalKit
 
 // Our iOS specific view controller
-class GameViewControlleriOS: UIViewController {
+class GameViewControlleriOS: UIViewController, MTKViewDelegate {
 
     var renderer: Renderer!
     var mtkView: MTKView!
@@ -41,6 +41,14 @@ class GameViewControlleriOS: UIViewController {
 
         renderer.mtkView(mtkView, drawableSizeWillChange: mtkView.drawableSize)
 
-        mtkView.delegate = renderer
+        mtkView.delegate = self
+    }
+    
+    func mtkView(_ view: MTKView, drawableSizeWillChange size: CGSize) {
+        renderer.mtkView(view, drawableSizeWillChange: size)
+    }
+    
+    func draw(in view: MTKView) {
+        renderer.draw(in: view)
     }
 }
