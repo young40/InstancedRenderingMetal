@@ -21,7 +21,18 @@ enum RendererError: Error {
     case badVertexDescriptor
 }
 
+let CowCount = 80;
+let CowSpeed = 0.75;
+let CowTurnDamping = 0.95;
+
+let TerrainSize       = 40;
+let TerrainHeight     = 1.5;
+let TerrainSmoothness = 0.95;
+
 class Renderer: NSObject, MTKViewDelegate {
+    
+    public var angularVelocity: Float = 0;
+    public var velocity:        Float = 0;
     
     public let device: MTLDevice
     let commandQueue: MTLCommandQueue
