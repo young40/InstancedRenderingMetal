@@ -41,6 +41,9 @@ class Renderer: NSObject, MTKViewDelegate {
     var depthState: MTLDepthStencilState
     var colorMap: MTLTexture
     
+    var terrainTexture: MTLTexture
+    var cowTexture: MTLTexture
+    
     let inFlightSemaphore = DispatchSemaphore(value: maxBuffersInFlight)
     
     var uniformBufferOffset = 0
@@ -98,7 +101,9 @@ class Renderer: NSObject, MTKViewDelegate {
         }
         
         do {
-            colorMap = try Renderer.loadTexture(device: device, textureName: "ColorMap")
+            colorMap       = try Renderer.loadTexture(device: device, textureName: "ColorMap")
+            terrainTexture = try Renderer.loadTexture(device: device, textureName: URL(fileURLWithPath: Bundle.main.path(forResource: "grass", ofType: "png")!))
+            cowTexture     = try Renderer.loadTexture(device: device, textureName: URL(fileURLWithPath: Bundle.main.path(forResource: "spot",  ofType: "png")!))
         } catch {
             print("Unable to load texture. Error info: \(error)")
             return nil
@@ -198,6 +203,20 @@ class Renderer: NSObject, MTKViewDelegate {
                                             bundle: nil,
                                             options: textureLoaderOptions)
         
+    }
+    
+    class func loadTexture(device: MTLDevice,
+                           textureName: URL) throws -> MTLTexture {
+        /// Load texture data with optimal parameters for sampling
+        
+        let textureLoader = MTKTextureLoader(device: device)
+        
+        let textureLoaderOptions = [
+            MTKTextureLoader.Option.textureUsage: NSNumber(value: MTLTextureUsage.shaderRead.rawValue),
+            MTKTextureLoader.Option.textureStorageMode: NSNumber(value: MTLStorageMode.`private`.rawValue)
+        ]
+        
+        return try textureLoader.newTexture(URL: textureName, options: textureLoaderOptions)
     }
     
     private func updateDynamicBufferState() {

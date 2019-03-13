@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D51E55622236BCBA002F18D2 /* Cow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E55612236BCBA002F18D2 /* Cow.swift */; };
 		D578CB662225907100187D9D /* AppDelegateiOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578CB652225907100187D9D /* AppDelegateiOS.swift */; };
 		D578CB682225907100187D9D /* GameViewControlleriOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578CB672225907100187D9D /* GameViewControlleriOS.swift */; };
 		D578CB6B2225907100187D9D /* MainiOS.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D578CB692225907100187D9D /* MainiOS.storyboard */; };
@@ -22,9 +23,28 @@
 		D578CB832225907100187D9D /* ShaderTypes.h in Resources */ = {isa = PBXBuildFile; fileRef = D578CB5C2225907000187D9D /* ShaderTypes.h */; };
 		D578CB842225907100187D9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D578CB5D2225907100187D9D /* Assets.xcassets */; };
 		D578CB852225907100187D9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D578CB5D2225907100187D9D /* Assets.xcassets */; };
+		D59789702238CAAA007D2B08 /* grass.png in Resources */ = {isa = PBXBuildFile; fileRef = D597896E2238CAAA007D2B08 /* grass.png */; };
+		D59789712238CAAA007D2B08 /* grass.png in Resources */ = {isa = PBXBuildFile; fileRef = D597896E2238CAAA007D2B08 /* grass.png */; };
+		D59789722238CAAA007D2B08 /* CREDITS in Resources */ = {isa = PBXBuildFile; fileRef = D597896F2238CAAA007D2B08 /* CREDITS */; };
+		D59789732238CAAA007D2B08 /* CREDITS in Resources */ = {isa = PBXBuildFile; fileRef = D597896F2238CAAA007D2B08 /* CREDITS */; };
+		D59789AD2238CD60007D2B08 /* spot_control_mesh.obj in Resources */ = {isa = PBXBuildFile; fileRef = D59789A62238CD60007D2B08 /* spot_control_mesh.obj */; };
+		D59789AE2238CD60007D2B08 /* spot_control_mesh.obj in Resources */ = {isa = PBXBuildFile; fileRef = D59789A62238CD60007D2B08 /* spot_control_mesh.obj */; };
+		D59789AF2238CD60007D2B08 /* spot_quadrangulated.obj in Resources */ = {isa = PBXBuildFile; fileRef = D59789A72238CD60007D2B08 /* spot_quadrangulated.obj */; };
+		D59789B02238CD60007D2B08 /* spot_quadrangulated.obj in Resources */ = {isa = PBXBuildFile; fileRef = D59789A72238CD60007D2B08 /* spot_quadrangulated.obj */; };
+		D59789B12238CD60007D2B08 /* spot_CREDITS in Resources */ = {isa = PBXBuildFile; fileRef = D59789A82238CD60007D2B08 /* spot_CREDITS */; };
+		D59789B22238CD60007D2B08 /* spot_CREDITS in Resources */ = {isa = PBXBuildFile; fileRef = D59789A82238CD60007D2B08 /* spot_CREDITS */; };
+		D59789B32238CD60007D2B08 /* spot.png in Resources */ = {isa = PBXBuildFile; fileRef = D59789A92238CD60007D2B08 /* spot.png */; };
+		D59789B42238CD60007D2B08 /* spot.png in Resources */ = {isa = PBXBuildFile; fileRef = D59789A92238CD60007D2B08 /* spot.png */; };
+		D59789B52238CD60007D2B08 /* spot_triangulated.obj in Resources */ = {isa = PBXBuildFile; fileRef = D59789AA2238CD60007D2B08 /* spot_triangulated.obj */; };
+		D59789B62238CD60007D2B08 /* spot_triangulated.obj in Resources */ = {isa = PBXBuildFile; fileRef = D59789AA2238CD60007D2B08 /* spot_triangulated.obj */; };
+		D59789B72238CD60007D2B08 /* spot.obj in Resources */ = {isa = PBXBuildFile; fileRef = D59789AB2238CD60007D2B08 /* spot.obj */; };
+		D59789B82238CD60007D2B08 /* spot.obj in Resources */ = {isa = PBXBuildFile; fileRef = D59789AB2238CD60007D2B08 /* spot.obj */; };
+		D59789B92238CD60007D2B08 /* spot_texture.svg in Resources */ = {isa = PBXBuildFile; fileRef = D59789AC2238CD60007D2B08 /* spot_texture.svg */; };
+		D59789BA2238CD60007D2B08 /* spot_texture.svg in Resources */ = {isa = PBXBuildFile; fileRef = D59789AC2238CD60007D2B08 /* spot_texture.svg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D51E55612236BCBA002F18D2 /* Cow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cow.swift; sourceTree = "<group>"; };
 		D578CB5A2225907000187D9D /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
 		D578CB5B2225907000187D9D /* Renderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Renderer.swift; sourceTree = "<group>"; };
 		D578CB5C2225907000187D9D /* ShaderTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShaderTypes.h; sourceTree = "<group>"; };
@@ -40,6 +60,15 @@
 		D578CB782225907100187D9D /* GameViewControllerMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewControllerMac.swift; sourceTree = "<group>"; };
 		D578CB7B2225907100187D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainMac.storyboard; sourceTree = "<group>"; };
 		D578CB7D2225907100187D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D597896E2238CAAA007D2B08 /* grass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grass.png; path = Texture/grass.png; sourceTree = "<group>"; };
+		D597896F2238CAAA007D2B08 /* CREDITS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CREDITS; path = Texture/CREDITS; sourceTree = "<group>"; };
+		D59789A62238CD60007D2B08 /* spot_control_mesh.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = spot_control_mesh.obj; path = spot/spot_control_mesh.obj; sourceTree = "<group>"; };
+		D59789A72238CD60007D2B08 /* spot_quadrangulated.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = spot_quadrangulated.obj; path = spot/spot_quadrangulated.obj; sourceTree = "<group>"; };
+		D59789A82238CD60007D2B08 /* spot_CREDITS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = spot_CREDITS; path = spot/spot_CREDITS; sourceTree = "<group>"; };
+		D59789A92238CD60007D2B08 /* spot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spot.png; path = spot/spot.png; sourceTree = "<group>"; };
+		D59789AA2238CD60007D2B08 /* spot_triangulated.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = spot_triangulated.obj; path = spot/spot_triangulated.obj; sourceTree = "<group>"; };
+		D59789AB2238CD60007D2B08 /* spot.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = spot.obj; path = spot/spot.obj; sourceTree = "<group>"; };
+		D59789AC2238CD60007D2B08 /* spot_texture.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = spot_texture.svg; path = spot/spot_texture.svg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +92,9 @@
 		D578CB542225907000187D9D = {
 			isa = PBXGroup;
 			children = (
+				D59789A22238CB2A007D2B08 /* spot */,
+				D597896D2238CAA0007D2B08 /* Texture */,
+				D51E55612236BCBA002F18D2 /* Cow.swift */,
 				D578CB592225907000187D9D /* InstancedRendering Shared */,
 				D578CB642225907100187D9D /* InstancedRendering iOS */,
 				D578CB752225907100187D9D /* InstancedRendering macOS */,
@@ -111,6 +143,29 @@
 				D578CB7D2225907100187D9D /* Info.plist */,
 			);
 			path = "InstancedRendering macOS";
+			sourceTree = "<group>";
+		};
+		D597896D2238CAA0007D2B08 /* Texture */ = {
+			isa = PBXGroup;
+			children = (
+				D597896F2238CAAA007D2B08 /* CREDITS */,
+				D597896E2238CAAA007D2B08 /* grass.png */,
+			);
+			name = Texture;
+			sourceTree = "<group>";
+		};
+		D59789A22238CB2A007D2B08 /* spot */ = {
+			isa = PBXGroup;
+			children = (
+				D59789A62238CD60007D2B08 /* spot_control_mesh.obj */,
+				D59789A82238CD60007D2B08 /* spot_CREDITS */,
+				D59789A72238CD60007D2B08 /* spot_quadrangulated.obj */,
+				D59789AC2238CD60007D2B08 /* spot_texture.svg */,
+				D59789AA2238CD60007D2B08 /* spot_triangulated.obj */,
+				D59789AB2238CD60007D2B08 /* spot.obj */,
+				D59789A92238CD60007D2B08 /* spot.png */,
+			);
+			name = spot;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,9 +248,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				D578CB822225907100187D9D /* ShaderTypes.h in Resources */,
+				D59789B32238CD60007D2B08 /* spot.png in Resources */,
+				D59789AD2238CD60007D2B08 /* spot_control_mesh.obj in Resources */,
+				D59789B72238CD60007D2B08 /* spot.obj in Resources */,
 				D578CB6B2225907100187D9D /* MainiOS.storyboard in Resources */,
+				D59789702238CAAA007D2B08 /* grass.png in Resources */,
+				D59789722238CAAA007D2B08 /* CREDITS in Resources */,
 				D578CB842225907100187D9D /* Assets.xcassets in Resources */,
 				D578CB6E2225907100187D9D /* LaunchScreen.storyboard in Resources */,
+				D59789B92238CD60007D2B08 /* spot_texture.svg in Resources */,
+				D59789B12238CD60007D2B08 /* spot_CREDITS in Resources */,
+				D59789AF2238CD60007D2B08 /* spot_quadrangulated.obj in Resources */,
+				D59789B52238CD60007D2B08 /* spot_triangulated.obj in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,9 +267,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D59789712238CAAA007D2B08 /* grass.png in Resources */,
 				D578CB7C2225907100187D9D /* MainMac.storyboard in Resources */,
+				D59789B42238CD60007D2B08 /* spot.png in Resources */,
+				D59789B62238CD60007D2B08 /* spot_triangulated.obj in Resources */,
+				D59789732238CAAA007D2B08 /* CREDITS in Resources */,
 				D578CB852225907100187D9D /* Assets.xcassets in Resources */,
+				D59789AE2238CD60007D2B08 /* spot_control_mesh.obj in Resources */,
+				D59789B02238CD60007D2B08 /* spot_quadrangulated.obj in Resources */,
+				D59789BA2238CD60007D2B08 /* spot_texture.svg in Resources */,
 				D578CB832225907100187D9D /* ShaderTypes.h in Resources */,
+				D59789B82238CD60007D2B08 /* spot.obj in Resources */,
+				D59789B22238CD60007D2B08 /* spot_CREDITS in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D578CB802225907100187D9D /* Renderer.swift in Sources */,
+				D51E55622236BCBA002F18D2 /* Cow.swift in Sources */,
 				D578CB7E2225907100187D9D /* Shaders.metal in Sources */,
 				D578CB682225907100187D9D /* GameViewControlleriOS.swift in Sources */,
 				D578CB662225907100187D9D /* AppDelegateiOS.swift in Sources */,
@@ -436,7 +510,7 @@
 				PRODUCT_NAME = InstancedRendering;
 				SDKROOT = macosx;
 				SWIFT_OBJC_BRIDGING_HEADER = "InstancedRendering Shared/ShaderTypes.h";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -458,7 +532,7 @@
 				PRODUCT_NAME = InstancedRendering;
 				SDKROOT = macosx;
 				SWIFT_OBJC_BRIDGING_HEADER = "InstancedRendering Shared/ShaderTypes.h";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 			};
 			name = Release;
 		};
