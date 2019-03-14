@@ -55,7 +55,7 @@
 		D578CB6A2225907100187D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainiOS.storyboard; sourceTree = "<group>"; };
 		D578CB6D2225907100187D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D578CB6F2225907100187D9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D578CB742225907100187D9D /* InstancedRendering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstancedRendering.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D578CB742225907100187D9D /* InstancedRendering macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "InstancedRendering macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D578CB762225907100187D9D /* AppDelegateMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegateMac.swift; sourceTree = "<group>"; };
 		D578CB782225907100187D9D /* GameViewControllerMac.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewControllerMac.swift; sourceTree = "<group>"; };
 		D578CB7B2225907100187D9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainMac.storyboard; sourceTree = "<group>"; };
@@ -117,7 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				D578CB622225907100187D9D /* InstancedRendering.app */,
-				D578CB742225907100187D9D /* InstancedRendering.app */,
+				D578CB742225907100187D9D /* InstancedRendering macOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -202,7 +202,7 @@
 			);
 			name = "InstancedRendering macOS";
 			productName = "InstancedRendering macOS";
-			productReference = D578CB742225907100187D9D /* InstancedRendering.app */;
+			productReference = D578CB742225907100187D9D /* InstancedRendering macOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -507,10 +507,11 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = com.young40.InstancedRendering;
-				PRODUCT_NAME = InstancedRendering;
+				PRODUCT_NAME = "InstancedRendering macOS";
 				SDKROOT = macosx;
 				SWIFT_OBJC_BRIDGING_HEADER = "InstancedRendering Shared/ShaderTypes.h";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
+				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
 		};
@@ -529,10 +530,11 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				PRODUCT_BUNDLE_IDENTIFIER = com.young40.InstancedRendering;
-				PRODUCT_NAME = InstancedRendering;
+				PRODUCT_NAME = "InstancedRendering macOS";
 				SDKROOT = macosx;
 				SWIFT_OBJC_BRIDGING_HEADER = "InstancedRendering Shared/ShaderTypes.h";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
+				VALID_ARCHS = x86_64;
 			};
 			name = Release;
 		};
