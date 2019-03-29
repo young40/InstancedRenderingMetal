@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D50FD974224E525D00490D0D /* Cow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E55612236BCBA002F18D2 /* Cow.swift */; };
 		D51E55622236BCBA002F18D2 /* Cow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D51E55612236BCBA002F18D2 /* Cow.swift */; };
 		D5240810223AAA0C006BFB4C /* MyMesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = D524080F223AAA0C006BFB4C /* MyMesh.swift */; };
 		D5240811223AAA0C006BFB4C /* MyMesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = D524080F223AAA0C006BFB4C /* MyMesh.swift */; };
@@ -311,6 +312,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D50FD974224E525D00490D0D /* Cow.swift in Sources */,
 				D578CB812225907100187D9D /* Renderer.swift in Sources */,
 				D578CB7F2225907100187D9D /* Shaders.metal in Sources */,
 				D578CB792225907100187D9D /* GameViewControllerMac.swift in Sources */,
