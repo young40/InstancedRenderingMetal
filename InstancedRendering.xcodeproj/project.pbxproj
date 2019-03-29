@@ -467,7 +467,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7HZ7R53M86;
 				INFOPLIST_FILE = "InstancedRendering iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -489,7 +489,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7HZ7R53M86;
 				INFOPLIST_FILE = "InstancedRendering iOS/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -517,7 +517,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.14.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.young40.InstancedRendering;
 				PRODUCT_NAME = "InstancedRendering macOS";
 				SDKROOT = macosx;
@@ -540,7 +540,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.14.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.young40.InstancedRendering;
 				PRODUCT_NAME = "InstancedRendering macOS";
 				SDKROOT = macosx;
