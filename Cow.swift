@@ -13,4 +13,10 @@ class Cow {
     var position: vector_float3;
     var targetHeading: Float;
     var heading: Float;
+
+    init(position: vector_float3, targetHeading: Float, heading: Float) {
+        self.position = position
+        self.targetHeading = targetHeading
+        self.heading = heading
+    }
 }
